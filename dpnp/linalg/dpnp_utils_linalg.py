@@ -31,6 +31,7 @@ from numpy import prod
 from numpy.core.numeric import normalize_axis_index
 
 import dpnp
+import dpnp.backend.extensions.blas._blas_impl as bi
 import dpnp.backend.extensions.lapack._lapack_impl as li
 from dpnp.dpnp_utils import get_usm_allocations
 

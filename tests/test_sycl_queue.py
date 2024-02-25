@@ -441,6 +441,7 @@ def test_meshgrid(device_x, device_y):
         pytest.param("nansum", [1.0, dpnp.nan]),
         pytest.param("nanvar", [1.0, 2.0, 4.0, dpnp.nan]),
         pytest.param("negative", [1.0, 0.0, -1.0]),
+        pytest.param("norm", [1.0, 2.0]),
         pytest.param("positive", [1.0, 0.0, -1.0]),
         pytest.param("prod", [1.0, 2.0]),
         pytest.param("ptp", [1.0, 2.0, 4.0, 7.0]),

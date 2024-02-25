@@ -552,6 +552,7 @@ def test_norm(usm_type, ord, axis):
         pytest.param("nansum", [1.0, 2.0, 4.0, dp.nan]),
         pytest.param("nanvar", [1.0, 2.0, 4.0, dp.nan]),
         pytest.param("negative", [1.0, 0.0, -1.0]),
+        pytest.param("norm", [1.0, 2.0]),
         pytest.param("positive", [1.0, 0.0, -1.0]),
         pytest.param("prod", [1.0, 2.0]),
         pytest.param("proj", [complex(1.0, 2.0), complex(dp.inf, -1.0)]),
